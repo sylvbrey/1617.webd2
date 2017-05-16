@@ -16,13 +16,13 @@ h1, h2, h3, h4, h5, h6 {
 
 h1{
   font-size: 4em;
-  font-weight: 500;
+  font-weight: 700;
   color: rgba(77, 76, 98, 1);
 }
 
 h2{
   font-size:2em;
-  font-weight:400;
+  font-weight:500;
   color: rgba(124, 118, 136, 1);
 }
 
@@ -45,20 +45,9 @@ p{
 
 }
 
-.huisstijlen{
-  font-size:20px;
-  font-weight:300;
-}
 .kader_grafischontwerp--default{
   font-size:30px;
   font-weight:500;
-
-}
-
-.grafischontwerp{
-  font-size:20px;
-  font-weight:300;
-
 }
 
 .kader_webdesign--default{
@@ -66,31 +55,22 @@ p{
   font-weight:500;
 }
 
-.webdesign{
-  font-size:20px;
-  font-weight:300;
-
-}
-
 .menubalk{
   font-size:60px;
   font-weight:500;
+}
+
+.hoofdmenu{
+  font-size: 35px;
+  font-weight:400;
 }
 
 .sidenav a {
   font-size: 25px;
 }
 
-.hoofdmenu{
-  font-size: 80px;
-  font-weight:400;
-}
-
 .sidenav .closebtn{
   font-size: 36px;
 }
 
-.overons{
-  font-weight: 300;
-  font-size:30px;
-}
+

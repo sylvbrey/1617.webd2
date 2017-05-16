@@ -46,19 +46,186 @@
     <!-- Stylesheets: App -->
     <link rel="stylesheet" media="all" href="css/fonts.css">
     <link rel="stylesheet" media="all" href="css/typography.css">
+    <link rel="stylesheet" media="all" href="css/grid.css">
     <link rel="stylesheet" media="all" href="css/main.css">
     <!-- Modernizr: feature detection -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
   </head>
 
-  <body>
-    <div class="intro">
-      <h1>GDM - HTML5 Template</h1>
-      <p>We educate future talents in Design for Print and Non-Print, Web- and App Development, Audio and Video Production, 2D- and 3D Animations, Printing and Packaging and the whole Management of those workflows!</p>
+<body>
+
+<span onclick="openNav()"> <img class="menubalk" src="afbeeldingen/menu.svg"></span>
+        
+    <!-- begin hoofdnavigatie -->
+    <div class="sf-grid__wrapper">
+      <div class="sf-grid__container">
+        <div class="sf-grid__row">
+          
+            <div class="sf-grid__column-11">
+             <div class="header"><img class="logo" src="afbeeldingen/logo.svg"></div></div>
+
+
+             <div class="sf-grid__column-6">
+              <div id="myNav" class="overlay">
+
+              <!-- Button to close the overlay navigation -->
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+              <!-- Overlay content -->
+              <div class="overlay-content">
+                  <div class="hoofdmenu"<a href="#">Menu</a></div>
+                  <a href="overons.html">Over ons</a>
+                  <a href="portfolio.html">Portfolio</a>
+                  <a href="contact.html">Contact</a>
+                  <a href="nieuws.html">Nieuws</a>
+              </div>
+
+            </div>
+            
+
+<!-- Use any element to open/show the overlay navigation menu -->
+<span onclick="openNav()"></span>
+                    <script>
+                    /* Open when someone clicks on the span element */
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+                    </script>
+            </div>
+            </div>
+              
+            </div><!-- /row-->
+            
+
+      </div>
     </div>
-    <!-- Scripts: Vendors -->
-      <!-- For example: jQuery, lodash, handlebars, ... -->
-    <!-- Scripts: App -->
-    <script src="js/main.js"></script>
+
+  
+
+ <div class="sf-grid__wrapper vlak1">
+      <div class="sf-grid__container">
+        <div class="sf-grid__row">
+            <div class="sf-grid__column-4">
+              <a href="huisstijlen.html"> <div class="kader kader_huisstijlen--default"><span>Huisstijlen en logo's</span></div></a></div>
+            <div class="sf-grid__column-8">
+              <div class="kader huisstijlen"><span>Onze designers zijn professioneel 
+opgeleid om uw huisstijl of logo te ontwerpen.</span></div></div>
+        </div>
+      </div>
+ </div>
+
+
+<div class="sf-grid__wrapper">
+  <div class="sf-grid__container">
+    <div class="sf-grid__row">
+      <div class="sf-grid__column-4">
+        <img class="sblogo" src="afbeeldingen/sblogo.svg"></div>
+      <div class="sf-grid__column-4">
+        <img class="blogo" src="afbeeldingen/blogo.svg"></div>
+      <div class="sf-grid__column-4">
+        <img class="surf" src="afbeeldingen/surf.svg"></div>
+    </div>
+  </div>
+</div>
+           
+           
+<div class="sf-grid__wrapper vlak">
+  <div class="sf-grid__container">
+    <div class="sf-grid__row">
+           <div class="sf-grid__column-8">
+              <div class="kader grafischontwerp"><span>Alles wat onder de term grafisch 
+ontwerp valt, kunnen wij voor u ontwikkelen.</span></div></div>
+            <div class="sf-grid__column-4">              
+              <a href="grafischontwerp.html"> <div class="kader kader_grafischontwerp--default"><span>Grafisch ontwerp</span></div></a></div>
+    </div>
+  </div>
+</div>
+
+
+<div class="sf-grid__wrapper">
+    <div class="sf-grid__container">
+        <div class="sf-grid__row"> 
+            <div class="sf-grid__column-12">
+              <img class="motor" src="afbeeldingen/motor.svg"></div>
+</div>
+   </div>
+      </div>
+
+
+
+
+
+
+           <div class="sf-grid__wrapper vlak1">
+             <div class="sf-grid__container">
+               <div class="sf-grid__row">
+            <div class="sf-grid__column-4">
+              <a href="webdesign.html"> <div class="kader kader_webdesign--default"><span>Webdesign</span></div></a></div>
+            <div class="sf-grid__column-8">
+              <div class="kader webdesign"><span>Voor een kwalitatieve 
+website kan u ook bij ons terecht.</span></div></div>
+              
+
+              
+            </div>
+      </div>
+ </div>
+ 
+
+<!--footer-->
+    <div class="sf-grid__wrapper footer_vlak">
+      <div class="sf-grid__container">
+        <div class="sf-grid__row">
+
+          <footer>
+            <div class="sf-grid__column-12">
+              <article class="footer_tekst">
+                <p>Wittestraat 94 <br>
+                8700 Tielt</p>
+              </article>
+            </div>
+
+            <div class="sf-grid__column-3">
+              <article class="footer_tekst">
+                <p>Over Ons</p>
+              </article>
+            </div>
+
+            <div class="sf-grid__column-3">
+              <article class="footer_tekst">
+                <p>Portfolio</p>
+              </article>
+            </div>
+
+            <div class="sf-grid__column-3">
+              <article class="footer_tekst">
+                <p>Contact</p>
+              </article>
+            </div>
+
+            <div class="sf-grid__column-3">
+              <article class="footer_tekst">
+                <p>Nieuws</p>
+              </article>
+            </div>
+
+            <div class="sf-grid__column-12">
+              <article class="footer_tekst">
+                <img class="socialmedia" src="afbeeldingen/socialmedia.png">
+              </article>
+            </div>
+            
+          </footer>
+        </div>
+      </div>
+    </div>
+<!--einde footer-->
+
+            
   </body>
 </html>

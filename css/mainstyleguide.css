@@ -1,0 +1,247 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+/*body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: rgba(26,35,126 ,1) url('../assets/images/home.jpg') no-repeat center center fixed;
+  background-size: cover;
+
+  color: rgba(232,234,246 ,1);
+}
+
+.intro {
+  width: 90vw;
+
+  padding: 1rem;
+  margin-top: 1rem;
+
+  background: rgba(41,182,246 ,1);
+  color: rgba(1,87,155 ,1);
+}*/
+
+h1, h2, h3{
+  text-align: center;
+}
+
+h1{
+  width: 100%;
+  height: 100%;
+}
+
+h3{
+  margin-top: 10px;
+}
+
+p{
+  text-align: center;
+  text-align: justify;
+}
+
+/* Kleurkaders
+-------------------- */
+.container_vlakken {
+  width: 700px;
+
+}
+.kader {
+  color:rgba(254, 217, 183, 1);
+  border:3px solid rgba(217, 236, 230, 1);
+  height: 200px;
+  width: 200px;
+  line-height: 200px;
+  text-align: center;
+  margin: 0 auto 20px auto;
+}
+.kader span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.kader_huisstijlen--default:hover {
+    text-decoration: none;
+}
+
+.kader_huisstijlen--default:hover {
+    background-color: rgba(254, 217, 183, 1);
+    color: #FFF;
+}
+.kader_grafischontwerp--default:hover {
+    background-color:rgba(254, 217, 183, 1);
+    color: #FFF;
+}
+.kader_webdesign--default:hover {
+    background-color:rgba(254, 217, 183, 1);
+    color: #FFF;
+}
+.kleurvlak{
+  height: 90px;
+  width: 90px;
+  text-align: center;
+  color: #FFF;
+  margin: 0px 0px 0px 0px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.kleur1{
+  background-color:rgba(163, 168, 182, 1); 
+}
+.kleur2{
+  background-color:rgba(77, 76, 98, 1);
+}
+.kleur3{
+  background-color:rgba(124, 118, 136, 1); 
+}
+.kleur4{
+  background-color:rgba(151, 178, 186, 1); 
+}
+.kleur5{
+  background-color:rgba(254, 217, 183, 1);
+}
+.kleur6{
+  background-color:rgba(216, 236, 230, 1); 
+}
+
+a.iconen{
+  display: block;
+  background-size: 100%;
+  text-indent: -999px;
+  margin: 0 auto 20px auto;
+}
+
+a.menu{
+  background-image: url(../afbeeldingen/menu.png);
+  width:30px;
+  height: 24px;
+  
+}
+
+a.zoeker{
+  background-image: url(../afbeeldingen/zoeker.png);
+  width:30px;
+  height: 42px;
+  margin: 0px auto 10px auto;
+  
+
+}
+
+a.teruggaan{
+  background-image: url(../afbeeldingen/teruggaan.png);
+  width:40px;
+  height:29px;
+
+}
+
+a.naaronder{
+  background-image: url(../afbeeldingen/naaronder.png);
+  width:30px;
+  height: 40px;
+}
+a.telefoon{
+  background-image: url(../afbeeldingen/telefoon.png);
+  width:30px;
+  height: 38px;
+}
+a.naarboven{
+  background-image: url(../afbeeldingen/naarboven.png);
+  width:30px;
+  height: 39px;
+}
+a.socialmedia{
+  background-image: url(../afbeeldingen/socialmedia.png);
+  width:90px;
+  height: 20px;
+}
+
+a.mail{
+  background-image: url(../afbeeldingen/mail.png);
+  width:30px;
+  height: 19px;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: white; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: rgba(163, 168, 182,1);
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+    
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: rgba(77, 76, 98,1);
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.menubalk{
+  text-align: center;
+  color:rgba(124, 118, 136, 1);
+  vertical-align: middle;
+
+}
+
+.menubalk:hover {
+  color:rgba(163, 168, 182,1);
+  
+}
+
+.hoofdmenu{
+  color:rgba(77, 76, 98,1);
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s;
+  text-align: center;
+}
+
+
+/* kleurvlakken */
+
+
