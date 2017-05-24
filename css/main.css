@@ -206,6 +206,7 @@ p{
 }
 
 .footer_tekst{
+  text-decoration: none;
   background-color: rgba(77, 76, 98,1);
   margin-left: 48%; 
   text-align: center;
@@ -213,11 +214,16 @@ p{
   display: block;
   padding-top: 5%;
   padding-bottom: 2%;
+
 }
 .footer_vlak{
   background-color: rgba(77, 76, 98,1);
   margin: 0px 0px 0px 0px;
   width: 100%;
+}
+
+.link{
+  text-decoration: none;
 }
 
 
@@ -254,6 +260,16 @@ p{
   margin-top: 5%;
 }
 
+.vlak3{
+  position: relative;
+  text-align: center;
+  background: rgba(217, 236, 230, 1);
+  width: 100%;
+  height: 252px;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
 .motor{
   height: 70%;
   width: 70%;
@@ -265,7 +281,7 @@ p{
   height: 50%;
   width:50%;
   display: block;
-  margin: 20% 5% 5% 14%;
+  margin: 20% 5% 5% 19%;
 }
   
 
@@ -273,19 +289,19 @@ p{
   height: 50%;
   width:50%;
   display: block;
-  margin-left: 14%;
+  margin-left: 17%;
   margin-right: 20%;
   margin-top:20%;
 }
 
 .surf{
-  height: 70%;
-  width:70%;
+  height: 80%;
+  width:80%;
   display: block;
   margin-left: 14%;
   margin-right: 10%;
   margin-bottom: 20%;
-  margin-top:20%;
+  margin-top:15%;
 }
 
 /*Over ons*/
@@ -322,4 +338,88 @@ hr{
   margin-top: 10%;
   text-align: center;
   color:rgba(78, 76, 97,1);
+}
+
+.sylvia{
+  height: 70%;
+  width:70%;
+}
+
+.axelle{
+  height: 70%;
+  width:70%;
+}
+
+.dries{
+  height: 70%;
+  width:70%;
+  margin-left: 15%;
+  margin-top: 10%;
+}
+
+
+.portfolioknop{
+  height: 25%;
+  width: 25%;
+  margin-top: 10%;
+  margin-bottom: 10%; 
+  margin-left: 38%;
+  border: solid rgba(217, 236, 230, 1);
+  opacity: 1;
+  display: block;
+  background: 50% 50% no-repeat;
+  transition: .5s ease;
+  backface-visibility: hidden;
+    
+}
+.midden {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+.cfototeam:hover .fototeam{
+  opacity: 0.5;
+}
+
+.cfototeam:hover .midden{
+  opacity: 1;
+}
+
+.naam {
+  background-color:#DBEDE8;
+  color:#59503F;
+  padding:15px;
+}
+.teamoverons {
+  background:#DBEDE8;
+  color:#59503F;
+  width:180px;
+  height:180px;
+  padding:15px;
+}
+.bruin {
+  color: #59503F;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.banner{
+margin-top: 34%;
+margin-bottom: 10%;
+}
+
+.blogo2{
+margin-top: 34%;
+margin-bottom: 10%;
+margin-left: 18%;
+height: 60%;
+width:60%;
+}
+
+.olifant{
+  margin-bottom: 10%;
 }
