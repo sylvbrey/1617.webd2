@@ -1,119 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
-    <link rel="stylesheet" media="all" href="css/fonts.css">
-    <link rel="stylesheet" media="all" href="css/typography.css">
-    <link rel="stylesheet" media="all" href="css/grid.css">
-    <link rel="stylesheet" media="all" href="css/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio</title>
+  <link rel="stylesheet" media="all" href="css/fonts.css">
+  <link rel="stylesheet" media="all" href="css/typography.css">
+  <link rel="stylesheet" media="all" href="css/grid.css">
+  <link rel="stylesheet" media="all" href="css/main.css">
 </head>
+
 <body>
-    <span onclick="openNav()"> <img class="menubalk" src="afbeeldingen/menu.svg"></span>
-    <header>
-        <a href="index.html"> <img class="navigatielogo" src="afbeeldingen/logo.svg"></a>
-    </header>
-<div class="sf-grid__wrapper">
+  <span onclick="openNav()"> <img class="menubalk" src="afbeeldingen/menu.svg"></span>
+  <header>
+    <a href="index.html"> <img class="navigatielogo" src="afbeeldingen/logo.svg"></a>
+  </header>
+  <div class="sf-grid__wrapper">
     <div class="sf-grid__container">
-        <div class="sf-grid__row">
-            <div class="sf-grid__column-6">
-              <div id="myNav" class="overlay">
-
-              <!-- Button to close the overlay navigation -->
-              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
-              <!-- Overlay content -->
-              <div class="overlay-content">
-                  <div class="hoofdmenu"<a href="#">Menu</a></div>
-                  <a href="overons.html">Over ons</a>
-                  <a href="portfolio.html">Portfolio</a>
-                  <a href="contact.html">Contact</a>
-                  <a href="nieuws.html">Nieuws</a>
-              </div>
-
-            </div>
-</div>
-</div>
-</div>
-
-<!-- Use any element to open/show the overlay navigation menu -->
-<span onclick="openNav()"></span>
-
-<script>
-                    /* Open when someone clicks on the span element */
-function openNav() {
-    document.getElementById("myNav").style.width = "100%";
-}
-
-/* Close when someone clicks on the "x" symbol inside the overlay */
-function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
-}
-</script>
-
-<div class="sf-grid__wrapper">
-   <div class="sf-grid__container">
       <div class="sf-grid__row">
-        <div class="sf-grid__column-12">
-    <h1>Portfolio</h1>
-    <h2>Huisstijlen en logo's</h2>
-    <hr>
-        </div>
-      </div>
-   </div>
-  
+        <div class="sf-grid__column-6">
+          <div id="myNav" class="overlay">
 
-    
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-    <!--footer-->
-    <div class="sf-grid__wrapper footer_vlak">
-      <div class="sf-grid__container">
-        <div class="sf-grid__row">
-
-          <footer>
-            <div class="sf-grid__column-12">
-              <article class="footer_tekst">
-                <p>Wittestraat 94 <br>
-                8700 Tielt</p>
-              </article>
+            <!-- Overlay content -->
+            <div class="overlay-content">
+              <div class="hoofdmenu" <a href="#">Menu</a>
+              </div>
+              <a href="overons.html">Over ons</a>
+              <a href="portfolio.html">Portfolio</a>
+              <a href="contact.html">Contact</a>
+              <a href="nieuws.html">Nieuws</a>
             </div>
 
-            <div class="sf-grid__column-3">
-              <a class="link"href="overons.html"><article class="footer_tekst">
-                <p>Over Ons</p>
-              </article>
-            </div>
-
-            <div class="sf-grid__column-3">
-             <a class="link"href="portfolio.html"> <article class="footer_tekst">
-                <p>Portfolio</p>
-              </article>
-            </div>
-
-            <div class="sf-grid__column-3">
-              <a class="link"href="contact.html"> <article class="footer_tekst">
-                <p>Contact</p>
-              </article>
-            </div>
-
-            <div class="sf-grid__column-3">
-              <a class="link" href="nieuws.html"> <article class="footer_tekst">
-                <p>Nieuws</p>
-              </article>
-            </div>
-
-            <div class="sf-grid__column-12">
-              <article class="footer_tekst">
-                <img class="socialmedia" src="afbeeldingen/socialmedia.png">
-              </article>
-            </div>
-            
-          </footer>
+          </div>
         </div>
       </div>
     </div>
-<!--einde footer-->
+
+    <!-- Use any element to open/show the overlay navigation menu -->
+    <span onclick="openNav()"></span>
+
+    <script>
+      /* Open when someone clicks on the span element */
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+
+      /* Close when someone clicks on the "x" symbol inside the overlay */
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+
+    </script>
+
+    <div class="sf-grid__wrapper">
+      <div class="sf-grid__container">
+        <div class="sf-grid__row">
+          <div class="sf-grid__column-12">
+            <h1>Portfolio</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="sf-grid__container">
+        <div class="sf-grid__row">
+          <div class="sf-grid__column-12">
+            <a href="huisstijlen.html">
+              <div class="kader kader_huisstijlen--default huisstijlen2"><span>Huisstijlen en logo's</span></div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="sf-grid__container">
+        <div class="sf-grid__row">
+          <div class="sf-grid__column-12">
+            <a href="grafischontwerp.html">
+              <div class="kader kader_grafischontwerp--default huisstijlen2"><span>Grafisch ontwerp</span></div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="sf-grid__container">
+        <div class="sf-grid__row">
+          <div class="sf-grid__column-12">
+            <a href="webdesign.html">
+              <div class="kader kader_webdesign--default huisstijlen2"><span>Webdesign</span></div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!--footer-->
+      <div class="sf-grid__wrapper footer_vlak">
+        <div class="sf-grid__container">
+          <div class="sf-grid__row">
+
+            <footer>
+              <div class="sf-grid__column-12">
+                <article class="footer_tekst">
+                  <p>Wittestraat 94 <br> 8700 Tielt</p>
+                </article>
+              </div>
+
+              <div class="sf-grid__column-3">
+                <a class="link" href="overons.html">
+                  <article class="footer_tekst">
+                    <p>Over Ons</p>
+                  </article>
+              </div>
+
+              <div class="sf-grid__column-3">
+                <a class="link" href="portfolio.html">
+                  <article class="footer_tekst">
+                    <p>Portfolio</p>
+                  </article>
+              </div>
+
+              <div class="sf-grid__column-3">
+                <a class="link" href="contact.html">
+                  <article class="footer_tekst">
+                    <p>Contact</p>
+                  </article>
+              </div>
+
+              <div class="sf-grid__column-3">
+                <a class="link" href="nieuws.html">
+                  <article class="footer_tekst">
+                    <p>Nieuws</p>
+                  </article>
+              </div>
+
+              <div class="sf-grid__column-12">
+                <article class="footer_tekst">
+                  <img class="socialmedia" src="afbeeldingen/socialmedia.png">
+                </article>
+              </div>
+
+            </footer>
+          </div>
+        </div>
+      </div>
+      <!--einde footer-->
 </body>
+
 </html>

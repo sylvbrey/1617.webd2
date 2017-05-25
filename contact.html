@@ -1,64 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact</title>
-    <link rel="stylesheet" media="all" href="css/fonts.css">
-    <link rel="stylesheet" media="all" href="css/typography.css">
-    <link rel="stylesheet" media="all" href="css/grid.css">
-    <link rel="stylesheet" media="all" href="css/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact</title>
+  <link rel="stylesheet" media="all" href="css/fonts.css">
+  <link rel="stylesheet" media="all" href="css/typography.css">
+  <link rel="stylesheet" media="all" href="css/grid.css">
+  <link rel="stylesheet" media="all" href="css/main.css">
 </head>
+
 <body>
-    <span onclick="openNav()"> <img class="menubalk" src="afbeeldingen/menu.svg"></span>
-    <header>
-        <a href="index.html"> <img class="navigatielogo" src="afbeeldingen/logo.svg"></a>
-    </header>
-<div class="sf-grid__wrapper">
+  <span onclick="openNav()"> <img class="menubalk" src="afbeeldingen/menu.svg"></span>
+  <header>
+    <a href="index.html"> <img class="navigatielogo" src="afbeeldingen/logo.svg"></a>
+  </header>
+  <div class="sf-grid__wrapper">
     <div class="sf-grid__container">
-        <div class="sf-grid__row">
-            <div class="sf-grid__column-6">
-              <div id="myNav" class="overlay">
+      <div class="sf-grid__row">
+        <div class="sf-grid__column-6">
+          <div id="myNav" class="overlay">
 
-              <!-- Button to close the overlay navigation -->
-              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-              <!-- Overlay content -->
-              <div class="overlay-content">
-                  <div class="hoofdmenu"<a href="#">Menu</a></div>
-                  <a href="overons.html">Over ons</a>
-                  <a href="portfolio.html">Portfolio</a>
-                  <a href="contact.html">Contact</a>
-                  <a href="nieuws.html">Nieuws</a>
+            <!-- Overlay content -->
+            <div class="overlay-content">
+              <div class="hoofdmenu" <a href="#">Menu</a>
               </div>
-
+              <a href="overons.html">Over ons</a>
+              <a href="portfolio.html">Portfolio</a>
+              <a href="contact.html">Contact</a>
+              <a href="nieuws.html">Nieuws</a>
             </div>
-</div>
-</div>
-</div>
 
-<!-- Use any element to open/show the overlay navigation menu -->
-<span onclick="openNav()"></span>
+          </div>
+        </div>
+      </div>
+    </div>
 
-<script>
-                    /* Open when someone clicks on the span element */
-function openNav() {
-    document.getElementById("myNav").style.width = "100%";
-}
+    <!-- Use any element to open/show the overlay navigation menu -->
+    <span onclick="openNav()"></span>
 
-/* Close when someone clicks on the "x" symbol inside the overlay */
-function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
-}
-</script>
+    <script>
+      /* Open when someone clicks on the span element */
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+
+      /* Close when someone clicks on the "x" symbol inside the overlay */
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+
+    </script>
 
 
     <h1>Contact</h1>
     <h2>Wie?</h2>
     <hr>
 
-<!--footer-->
+    <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2509.904644319854!2d3.7648076151933645!3d51.01791045419544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c374393bc340f5%3A0x4c7ea2874e51e5b9!2sMerelbekestraat+117%2C+9090+Melle!5e0!3m2!1snl!2sbe!4v1493653791709"
+              width="600"
+              height="450"
+              frameborder="0"
+              style="border:0"
+              allowfullscreen>
+          </iframe>
+
+
+    <!--footer-->
     <div class="sf-grid__wrapper footer_vlak">
       <div class="sf-grid__container">
         <div class="sf-grid__row">
@@ -66,33 +80,36 @@ function closeNav() {
           <footer>
             <div class="sf-grid__column-12">
               <article class="footer_tekst">
-                <p>Wittestraat 94 <br>
-                8700 Tielt</p>
+                <p>Wittestraat 94 <br> 8700 Tielt</p>
               </article>
             </div>
 
             <div class="sf-grid__column-3">
-              <a class="link"href="overons.html"><article class="footer_tekst">
-                <p>Over Ons</p>
-              </article>
+              <a class="link" href="overons.html">
+                <article class="footer_tekst">
+                  <p>Over Ons</p>
+                </article>
             </div>
 
             <div class="sf-grid__column-3">
-             <a class="link"href="portfolio.html"> <article class="footer_tekst">
-                <p>Portfolio</p>
-              </article>
+              <a class="link" href="portfolio.html">
+                <article class="footer_tekst">
+                  <p>Portfolio</p>
+                </article>
             </div>
 
             <div class="sf-grid__column-3">
-              <a class="link"href="contact.html"> <article class="footer_tekst">
-                <p>Contact</p>
-              </article>
+              <a class="link" href="contact.html">
+                <article class="footer_tekst">
+                  <p>Contact</p>
+                </article>
             </div>
 
             <div class="sf-grid__column-3">
-              <a class="link" href="nieuws.html"> <article class="footer_tekst">
-                <p>Nieuws</p>
-              </article>
+              <a class="link" href="nieuws.html">
+                <article class="footer_tekst">
+                  <p>Nieuws</p>
+                </article>
             </div>
 
             <div class="sf-grid__column-12">
@@ -100,11 +117,12 @@ function closeNav() {
                 <img class="socialmedia" src="afbeeldingen/socialmedia.png">
               </article>
             </div>
-            
+
           </footer>
         </div>
       </div>
     </div>
-<!--einde footer-->
+    <!--einde footer-->
 </body>
+
 </html>
