@@ -9,25 +9,181 @@ body {
 }
 
 
-/*body {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background: rgba(26,35,126 ,1) url('../assets/images/home.jpg') no-repeat center center fixed;
-  background-size: cover;
+/*styleguide*/
 
-  color: rgba(232,234,246 ,1);
+.kleur1 {
+  background-color: rgba(58, 53, 44, 1);
+  height: 400px;
+  width: 500px;
+  color: rgba(186, 169, 139, 1);
+  padding-left: 25%;
+  padding-top: 70%;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
-.intro {
-  width: 90vw;
+.kleur2 {
+  background-color: rgba(109, 95, 71, 1);
+  height: 400px;
+  width: 500px;
+  color: rgba(255, 241, 217, 1);
+  padding-left: 25%;
+  padding-top: 70%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
 
-  padding: 1rem;
-  margin-top: 1rem;
+.kleur3 {
+  background-color: rgba(186, 169, 139, 1);
+  height: 400px;
+  width: 500px;
+  color: rgba(255, 241, 217, 1);
+  padding-left: 25%;
+  padding-top: 70%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
 
-  background: rgba(41,182,246 ,1);
-  color: rgba(1,87,155 ,1);
-}*/
+.kleur4 {
+  background-color: rgba(255, 241, 217, 1);
+  height: 400px;
+  width: 500px;
+  color: rgba(109, 95, 71, 1);
+  padding-left: 25%;
+  padding-top: 70%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.socialmedia1 {
+  height: 50%;
+  width: 50%;
+  margin-left: 84%;
+  margin-top: 5%;
+}
+
+.hamburgerlogo {
+  margin-left: 97.5%;
+  margin-bottom: 5%;
+}
+
+.verzendknop {
+  margin-left: 82%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.emaillink1 {
+  list-style-type: none;
+  text-decoration: none;
+  color: rgba(58, 53, 44, 1);
+  margin-left: 82%;
+  font-size: 25px;
+}
+
+.emaillink1:hover {
+  color: rgba(138, 124, 99, 1);
+}
+
+.logostyleguide {
+  width: 30%;
+  height: 40%;
+  background-repeat: no-repeat;
+  display: block;
+  background-size: 400px;
+  text-indent: -999px;
+  margin-left: 72%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.styleguidefooter {
+  margin-top: 5%;
+}
+
+.huisstijlknop {
+  color: rgba(186, 169, 139, 1);
+  border: 2px solid rgba(138, 124, 99, 1);
+  height: 240px;
+  width: 240px;
+  line-height: 50px;
+  margin-left: 79%;
+}
+
+.huisstijlknop span {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  line-height: normal;
+}
+
+.kader_huisstijlen_styleguide {
+  height: 120px;
+}
+
+.kader_huisstijlen_styleguide:hover {
+  background-color: rgba(138, 124, 99, 1);
+  color: rgba(255, 241, 217, 1);
+}
+
+.styleguidefoto1 {
+  margin-bottom: 10%;
+  margin-left: 40%;
+  margin-top: 5%;
+  height: 60%;
+  width: 60%;
+}
+
+.img_styleguide1 {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  /* For IE8 and earlier */
+}
+
+.img_styleguide1:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+  /* For IE8 and earlier */
+}
+
+.sylviastyleguide {
+  height: 59%;
+  width: 59%;
+  margin-bottom: 10%;
+  margin-left: 40%;
+  margin-top: 5%;
+  opacity: 1;
+  display: block;
+  background: 50% 50% no-repeat;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.personeelstyleguide:hover .sylviastyleguide {
+  opacity: 0.5;
+}
+
+.middenstyleguide {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 43%;
+  left: 69%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.personeelstyleguide:hover .middenstyleguide {
+  opacity: 1;
+}
+
+.tekststyleguide {
+  background-color: rgba(186, 169, 139, 1);
+  color: rgba(58, 53, 44, 1);
+  padding: 15px;
+}
+
+/* einde styleguide*/
 
 h1 {
   margin-top: 5%;
@@ -180,43 +336,27 @@ p {
 }
 
 
-/* The Overlay (background) */
+/* overlay menu */
 
 .overlay {
-  /* Height & width depends on how you want to reveal the overlay (see JS below) */
   height: 100%;
   width: 0;
   position: fixed;
-  /* Stay in place */
   z-index: 1;
-  /* Sit on top */
   left: 0;
   top: 0;
   background-color: rgba(109, 95, 71, 0.97);
-  /* Black fallback color */
   overflow-x: hidden;
-  /* Disable horizontal scroll */
   transition: 0.5s;
-  /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 }
-
-
-/* Position the content inside the overlay */
 
 .overlay-content {
   position: relative;
   top: 10%;
-  /* 25% from the top */
   width: 100%;
-  /* 100% width */
   text-align: center;
-  /* Centered text/links */
   margin-top: 30px;
-  /* 30px top margin to avoid conflict with the close button on smaller screens */
 }
-
-
-/* The navigation links inside the overlay */
 
 .overlay a {
   padding: 8px;
@@ -224,21 +364,13 @@ p {
   font-size: 36px;
   color: rgba(186, 169, 139, 1);
   display: block;
-  /* Display block instead of inline */
   transition: 0.3s;
-  /* Transition effects on hover (color) */
 }
-
-
-/* When you mouse over the navigation links, change their color */
 
 .overlay a:hover,
 .overlay a:focus {
   color: rgba(255, 241, 217, 1);
 }
-
-
-/* Position the close button (top right corner) */
 
 .overlay .closebtn {
   position: absolute;
@@ -246,9 +378,6 @@ p {
   right: 45px;
   font-size: 60px;
 }
-
-
-/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
 
 @media screen and (max-height: 450px) {
   .overlay a {
@@ -260,6 +389,9 @@ p {
     right: 35px;
   }
 }
+
+
+/* einde overlay menu */
 
 .menubalk {
   position: relative;
@@ -282,23 +414,8 @@ p {
   transition: 0.3s;
 }
 
-.footer_tekst {
-  color: rgba(122, 111, 92, 1);
-  text-decoration: none;
-  margin-left: 48%;
-  text-align: center;
-  position: relative;
-  display: block;
-  padding-bottom: 2%;
-}
 
-footer {
-  border-top: 1px dotted rgba(58, 53, 44, 1);
-}
-
-.link {
-  text-decoration: none;
-}
+/*social media*/
 
 .socialmedia {
   text-align: center;
@@ -339,6 +456,9 @@ footer {
 .facebook:hover {
   opacity: 0.5;
 }
+
+
+/* einde social media*/
 
 .vlak {
   position: relative;
@@ -446,16 +566,6 @@ footer {
   height: 90%;
   width: 90%;
   margin-left: 0%;
-}
-
-.surf {
-  height: 80%;
-  width: 80%;
-  display: block;
-  margin-left: 14%;
-  margin-right: 10%;
-  margin-bottom: 20%;
-  margin-top: 15%;
 }
 
 
@@ -572,6 +682,9 @@ footer {
   padding: 15px;
 }
 
+
+/*Over ons einde*/
+
 .surf2 {
   margin-top: 25%;
   margin-bottom: 5%;
@@ -634,43 +747,28 @@ footer {
 .img_portfolio {
   opacity: 0.5;
   filter: alpha(opacity=50);
-  /* For IE8 and earlier */
 }
 
 .img_portfolio:hover {
   opacity: 1.0;
   filter: alpha(opacity=100);
-  /* For IE8 and earlier */
 }
 
 
-/*formulier */
-
-
-/* Style inputs with type="text", select elements and textareas */
+/*contact formulier */
 
 input[type=text],
 select,
 textarea {
   width: 100%;
-  /* Full width */
   padding: 12px;
-  /* Some padding */
   border: 1px solid rgba(138, 124, 99, 1);
-  /* Gray border */
   border-radius: 4px;
-  /* Rounded borders */
   box-sizing: border-box;
-  /* Make sure that padding and width stays in place */
   margin-top: 6px;
-  /* Add a top margin */
   margin-bottom: 16px;
-  /* Bottom margin */
-  resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+  resize: vertical;
 }
-
-
-/* Style the submit button with a specific background color etc */
 
 input[type=verzenden] {
   background-color: rgba(138, 124, 99, 1);
@@ -682,15 +780,9 @@ input[type=verzenden] {
   text-align: center;
 }
 
-
-/* When moving the mouse over the submit button, add a darker green color */
-
 input[type=verzenden]:hover {
   background-color: rgba(58, 53, 44, 1);
 }
-
-
-/* Add a background color and some padding around the form */
 
 .container {
   border-radius: 5px;
@@ -699,11 +791,20 @@ input[type=verzenden]:hover {
   margin-top: 10%;
 }
 
+
+/* einde contact formulier */
+
+
+/*google maps*/
+
 iframe {
   margin-left: 17%;
   margin-top: 10%;
   margin-bottom: 5%;
 }
+
+
+/*google maps*/
 
 .twitter1 {
   height: 8%;
@@ -855,3 +956,37 @@ iframe {
 .linkpaginas {
   margin-bottom: 45%;
 }
+
+.emaillink {
+  list-style-type: none;
+  text-decoration: none;
+  color: rgba(58, 53, 44, 1);
+}
+
+.emaillink:hover {
+  color: rgba(138, 124, 99, 1);
+}
+
+
+/* footer */
+
+.footer_tekst {
+  color: rgba(122, 111, 92, 1);
+  text-decoration: none;
+  margin-left: 48%;
+  text-align: center;
+  position: relative;
+  display: block;
+  padding-bottom: 2%;
+}
+
+footer {
+  border-top: 1px dotted rgba(58, 53, 44, 1);
+}
+
+.link {
+  text-decoration: none;
+}
+
+
+/* einde footer */

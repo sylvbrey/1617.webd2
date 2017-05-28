@@ -1,3 +1,15 @@
+.kleur1,
+.kleur2,
+.kleur3,
+.kleur4 {
+  font-size: 20px;
+}
+
+.kader_huisstijlen_styleguide {
+  font-size: 30px;
+  font-weight: 400;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
@@ -6,7 +18,12 @@ body {
   line-height: 1.42;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-size: 16px;
   font-weight: 500;
   font-style: normal;
@@ -14,90 +31,87 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
 }
 
-h1{
+h1 {
   font-size: 4em;
   font-weight: 400;
 }
 
-h2{
-  font-size:2em;
-  font-weight:300;
+h2 {
+  font-size: 2em;
+  font-weight: 300;
 }
 
- h3{
-   font-size:30px;
-   font-weight: 400;
+h3 {
+  font-size: 30px;
+  font-weight: 400;
 }
 
-h4{
-   font-size:30px;
-   font-weight: 400;
+h4 {
+  font-size: 30px;
+  font-weight: 400;
 }
 
-p{
-  font-size:17px;
-  font-weight:300;
-
-
-}
-.kader_huisstijlen--default{
-  font-size:30px;
-  font-weight:400;
-
+p {
+  font-size: 17px;
+  font-weight: 300;
 }
 
-.huisstijlen{
-  font-size:20px;
-  font-weight:300;
-}
-.kader_grafischontwerp--default{
-  font-size:30px;
-  font-weight:400;
-
+.kader_huisstijlen--default {
+  font-size: 30px;
+  font-weight: 400;
 }
 
-.grafischontwerp{
-  font-size:20px;
-  font-weight:300;
-
+.huisstijlen {
+  font-size: 20px;
+  font-weight: 300;
 }
 
-.kader_webdesign--default{
-  font-size:30px;
-  font-weight:400;
+.kader_grafischontwerp--default {
+  font-size: 30px;
+  font-weight: 400;
 }
 
-.webdesign{
-  font-size:20px;
-  font-weight:300;
-
+.grafischontwerp {
+  font-size: 20px;
+  font-weight: 300;
 }
 
-.menubalk{
-  font-size:60px;
-  font-weight:500;
+.kader_webdesign--default {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.webdesign {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.menubalk {
+  font-size: 60px;
+  font-weight: 500;
 }
 
 .sidenav a {
   font-size: 25px;
 }
 
-.hoofdmenu{
+.hoofdmenu {
   font-size: 80px;
-  font-weight:400;
+  font-weight: 400;
 }
 
-.sidenav .closebtn{
+.sidenav .closebtn {
   font-size: 36px;
 }
 
-.overons, .overons1{
+.overons,
+.overons1 {
   font-weight: 300;
-  font-size:25px;
+  font-size: 25px;
 }
 
-.tekst2, .tekst3{
+.tekst2,
+.tekst3 {
   font-weight: 600;
-  font-size:40px;
+  font-size: 40px;
 }
-
